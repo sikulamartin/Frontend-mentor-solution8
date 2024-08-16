@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    }
+    
+    .div4 { grid-area: 1 / 1 / 2 / 2; }
+    .div5 { grid-area: 1 / 2 / 2 / 3; }
+    .div6 { grid-area: 2 / 1 / 3 / 2; }
+    .div7 { grid-area: 2 / 2 / 3 / 3; }
+
+
+.heroRight{
+    position: relative;
+    right: -80px;
+}
+
+.heroLeft{
+    position: relative;
+    left: -40px;
+}
+
+.hero{
+    padding: 64px 0px;
+}
+
+.div2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.heroMainText{
+    margin-bottom: 32px;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 110%;
+    color: #28283D;
+}
+
+.heroSubText{
+    color: #87879D;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18.5px;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.buttonPrimary{
+    padding: 16px 40px;
+    border-radius: 29px;
+    border: none;
+    background-color: #4D96A9;
+    margin-right: 17px;
+    color: #FAFAFA;
+}
+
+.buttonPrimaryText{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+.buttonSecondaryText{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.buttonPrimaryText2{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 16px;
+    color: #8FE3F9;
+}
+
+.buttonSecondary{
+    padding: 16px 40px;
+    border-radius: 29px;
+    border: none;
+    background-color: #855FB1;
+}
+
+.heroText{
+    max-width: 448px;
+}
+
+.mainContent{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.numberContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.numberContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -28px;
+}
+
+.number{
+    z-index: 1;
+    background-color: #FAFAFA;
+    border: 1px solid #D1D1DF;
+    border-radius: 9999px;
+    color: #87879D;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    padding: 16.5px 18.5px;
+}
+
+
+.numberLine{
+    width: 1px;
+    height: 80px;
+    background-color: #D1D1DF;
+}
+
+.mainContentImageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.mainContentImage{
+    border-radius: 8px;
+}
+
+.textContent{
+    max-width: 544px;
+    text-align: center;
+}
+
+.textContentContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.textContentContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContent1{
+    color: #4D96A9;
+    text-transform: uppercase;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 4px;
+    max-width: 445px;
+    margin-bottom: 16px;
+}
+
+.textContent2{
+    color: #28283D;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 110%;
+    font-size: 40px;
+    max-width: 445px;
+    margin-bottom: 32px;
+}
+
+.textContent3{
+    color: #87879D;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.mainContentContainer{
+    padding: 56px 80px;
+}
+
+.footerImage{
+    width: 100%;
+    height: 312px;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+.footerContainer{
+    position: relative;
+}
+
+.footerTextContainer {
+    margin: 0 auto;
+    padding-top: 112px;
+    position: absolute;
+    top: 0px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.textContent4{
+    color: #FAFAFA;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 110%;
+    font-size: 40px;
+    max-width: 352px;
+}
+
+.textContent5{
+    color: #FAFAFA;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    max-width: 355px;
+}
+
+.buttonPrimaryText3{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 16px;
+    color: #D9B8FF;
+}
+
+.buttonPrimary1{
+    padding: 16px 40px;
+    border-radius: 29px;
+    border: none;
+    background-color: #855FB1;
+    color: #FAFAFA;
+    max-height: 56px;
+    align-self: center;
+    float: right;
+}
+
+.buttonFooterContainer{
+    align-self: center;
+    margin-left: 63px;
+}
+
+
+.heroTablet{
+    display: none;
+}
+
+@media (max-width: 1399.98px) {
+    .div1, .div3 {
+    display: none;
+    }
+    .heroTablet{
+        margin-top: 64px;
+        display: block;
+    }
+    .hero{
+        padding-top: 72px;
+    }
+    .heroMainText, .heroSubText {
+        margin-bottom: 24px;
+    }
+    .mainContentContainer{
+        padding: 56px 32px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .mainContentImage {
+        height: 256px;
+        width: 256px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .mainContentImage {
+        height: 248.9px;
+        width: 248.9px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .mainContentImage {
+        height: 241.75px;
+        width: 241.75px;
+    }
+}
+
+@media (max-width: 1290px) {
+    .mainContentImage {
+        height: 234.625px;
+        width: 234.625px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .mainContentImage {
+        height: 227.5px;
+        width: 227.5px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .mainContentImage {
+        height: 220.475px;
+        width: 220.475px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .mainContentImage {
+        height: 213.475px;
+        width: 213.475px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .mainContentImage {
+        height: 206.475px;
+        width: 206.475px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .mainContentImage {
+        height: 199.45px;
+        width: 199.45px;
+    }
+}
+
+@media (max-width: 990px) {
+    .mainContentImage {
+        height: 192.475px;
+        width: 192.475px;
+    }
+}
+
+@media (max-width: 940px) {
+    .mainContentImage {
+        height: 185.425px;
+        width: 185.425px;
+    }
+}
+
+@media (max-width: 890px) {
+    .mainContentImage {
+        height: 178.425px;
+        width: 178.425px;
+    }
+}
+
+@media (max-width: 840px) {
+    .mainContentImage {
+        height: 171.7px;
+        width: 171.7px;
+    }
+}
+
+.heroTablet{
+   max-width: 100%; 
+   height: auto;
+}
+
+
+
+@media (max-width: 790px) {
+    .mainContentImage {
+        height: 164.875px;
+        width: 164.875px;
+    }
+}
+
+.parent1{
+    display: none;
+    margin: 64px 0;
+}
+
+.footerImageMobile {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .mainContentImage {
+        height: 161.03px;
+        width: 161.03px;
+    }
+    .mainContentImageContainer {
+        display: none;
+    }
+    .parent1{
+        display: grid;
+    }
+    .mainContentContainer{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    .hero{
+        padding: 46px 0 32px 0;
+    }
+    .textContent3{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .textContent4{
+        font-size: 32px;
+    }
+    .footerImage{
+        display: none;
+    }
+    nav{
+        margin-top: 48px;
+    }
+    .footerImageMobile{
+        display: block;
+    }
+}
+
+.footerTextContainer{
+    margin: 0 auto;
+}
+
+.buttonPrimary1{
+    text-wrap: nowrap;
+}
+
+.footerImageMobile{
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
+
+@media (max-width: 376.98px) {
+    .mainContent{
+        max-width: 312px;
+    }
+    .hero{
+        max-width: 305px;
+        margin: 0 auto;
+    }
+    .buttonPrimary{
+        margin: 0 0 16px 0;
+    }
+    .heroSubText{
+        font-size: 16px;
+    }
+    .heroMainText{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width:1243.98px) {
+    .footerTextContainer {
+        padding-top: 64px;
+        position: absolute;
+        top: 0px;
+        width: 1120px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        left: 50%;
+        transform: translate(-50%);
+        align-items: center;
+    }
+    .textContent4, .textContent5{
+        text-align: center;
+        max-width: 504px;
+    }
+    .textContent4{
+        font-size: 36px;
+    }
+    .textContent5{
+        font-size: 16px;
+    }
+    .buttonFooterContainer{
+        margin: 0;
+    }
+}
+
+@media (max-width: 499.98px) {
+    .footerTextContainer {
+        padding-top: 32px;
+    }
+}
+
+@media (max-width: 1121px) {
+    .footerTextContainer{
+        width: auto;
+    }
+}
+
+.textContent5{
+    max-width: 352px;
+}
+
+.buttonFooterContainer{
+    max-width: 352px;
+}
